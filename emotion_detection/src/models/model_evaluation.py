@@ -257,7 +257,7 @@ def main():
             raise FileNotFoundError(f"Models directory not found: {models_dir}")
 
         # Read test data once
-        test_path = os.path.join(BASE_DIR, "data", "features", "test_bow.csv")
+        test_path = os.path.join(BASE_DIR, "data", "features", "test_tfidf.csv")
         X_test, y_test = read_data(test_path)
 
         # aggregated summary

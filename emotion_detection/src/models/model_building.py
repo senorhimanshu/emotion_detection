@@ -143,7 +143,7 @@ def main():
         # setting up models directory
         MODELS_DIR = os.path.join(BASE_DIR, "models")
         os.makedirs(MODELS_DIR, exist_ok=True)
-        train_path = os.path.join(BASE_DIR, "data", "features", "train_bow.csv")
+        train_path = os.path.join(BASE_DIR, "data", "features", "train_tfidf.csv")
 
         # Load configs and data
         models_config = load_params(param_path)

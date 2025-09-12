@@ -1,0 +1,30 @@
+{
+    "gradientboosting_latest": {
+        "accuracy": 0.740722891566265,
+        "precision": 0.8053777208706786,
+        "recall": 0.6197044334975369,
+        "roc_auc": 0.8387986801747375,
+        "evaluated_at": "2025-09-12T20:40:14.276268"
+    },
+    "logisticregression_latest": {
+        "accuracy": 0.7908433734939759,
+        "precision": 0.7795957651588066,
+        "recall": 0.7980295566502463,
+        "roc_auc": 0.8750288130867181,
+        "evaluated_at": "2025-09-12T20:40:14.313471"
+    },
+    "randomforest_latest": {
+        "accuracy": 0.7021686746987952,
+        "precision": 0.6333109469442579,
+        "recall": 0.929064039408867,
+        "roc_auc": 0.830946184589646,
+        "evaluated_at": "2025-09-12T20:40:14.389789"
+    },
+    "xgboost_latest": {
+        "accuracy": 0.7412048192771085,
+        "precision": 0.8025316455696202,
+        "recall": 0.6246305418719211,
+        "roc_auc": 0.8336857514638907,
+        "evaluated_at": "2025-09-12T20:40:15.209478"
+    }
+}
