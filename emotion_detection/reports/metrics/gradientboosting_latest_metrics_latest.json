@@ -1,0 +1,8 @@
+{
+    "model": "gradientboosting_latest",
+    "evaluated_at": "2025-09-12T02:03:39.366541",
+    "accuracy": 0.7383132530120482,
+    "precision": 0.8010204081632653,
+    "recall": 0.6187192118226601,
+    "roc_auc": 0.8415317408681104
+}
